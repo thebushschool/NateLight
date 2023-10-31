@@ -16,7 +16,7 @@ int ySpotThree = 205;
 void setup(){
   
   bg = loadImage("tower.jpg");
-  background(bg);
+  //background(bg);
 }
 
 void draw() {}
