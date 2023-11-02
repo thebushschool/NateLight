@@ -16,7 +16,7 @@ int ySpotThree = 205;
 void setup(){
   
   bg = loadImage("tower.jpg");
-  //background(bg);
+  background(bg);
 }
 
 void draw() {}
@@ -27,6 +27,7 @@ void settings() {
 
 void mousePressed()
 {
+  background(bg);
   colorchange(); 
   double rand = Math.random();
   
