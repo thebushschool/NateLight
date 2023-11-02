@@ -19,7 +19,9 @@ void setup(){
   background(bg);
 }
 
-void draw() {}
+void draw() {
+  background(bg);
+}
 
 void settings() {
   size(dimensionX,dimensionY);
