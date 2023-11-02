@@ -14,7 +14,7 @@ int xSpotThree = 15;
 int ySpotThree = 205;
 
 void setup(){
-  
+  settings();
   bg = loadImage("tower.jpg");
   background(bg);
 }
